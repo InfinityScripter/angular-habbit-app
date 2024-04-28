@@ -36,7 +36,9 @@
       </mat-card-content>
       <mat-card-actions>
         <button mat-raised-button color="accent" type="submit">Save</button>
-        <button mat-raised-button>Cancel</button>
+        <button mat-raised-button
+        (click)="exitForm()"
+        >Cancel</button>
       </mat-card-actions>
     </form>
   </mat-card>
